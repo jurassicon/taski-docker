@@ -81,6 +81,7 @@ jobs:
           # Параметр context: ./backend/ указывает, что нужный Dockerfile
           # находится в ./backend/
           context: ./backend/
+          file: Dockerfile
           # Параметр push: true указывает, что образ нужно не только собрать,
           # но и отправить на Docker Hub
           push: true
